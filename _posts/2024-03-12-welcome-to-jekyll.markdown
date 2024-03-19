@@ -9,12 +9,12 @@ categories: plot
 * Create a version of this plot from Week 1, where you display the `-axis on log-scale`. Comment on what the plot looks like. Do any new insights arise?
 
 ### From week1:
-![wk1](_figs/crimeoccurrence.png){:class="img-responsive"}
+<img src='_figs/crimeoccurrence.png' alt="occurrence" width="500" height="600">
 ### Log scale:
-![log](_figs/occurrence_in_log.png){:class="img-responsive"}
+<img src='_figs/occurrence_in_log.png' alt="log" width="500" height="600">
 
 * Plot the distribution of vs on linear axes & the distribution of vs on loglog axes.
 ### Distribution
-![dis](_figs/occurrence_distribution.png){:class="img-responsive"}
+<img src='_figs/occurrence_distribution.png' alt="log" width="500" height="600">
 
 <iframe src="part2.html" width="1100" height="600"></iframe>
