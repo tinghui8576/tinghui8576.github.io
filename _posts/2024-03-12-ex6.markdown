@@ -5,11 +5,5 @@ date:   2024-03-12 17:45:16 +0100
 categories: plot
 ---
 
-<!-- <embed 
-       type="text/html" 
-       src="part2.html"
-       width="1100"
-       height="600"
-       >
-</embed> -->
-<iframe src="part2.html" width="1100" height="600"></iframe>
+
+<!-- <iframe src="part2.html" width="1100" height="600"></iframe> -->
