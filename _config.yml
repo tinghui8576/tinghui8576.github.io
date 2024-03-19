@@ -23,7 +23,7 @@ email: s232855@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   This is an exercise for DTU02806 Social data analysis and visualization
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://tinghui/exercise" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  tinghui8576
 
 # Build settings
