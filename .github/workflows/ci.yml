@@ -1,4 +1,12 @@
+name: Build and Deploy
 
+on:
+  push:
+    branches:
+      - main  # Adjust the branch name as needed
+      - navigate
+
+jobs:
   build:
     runs-on: ubuntu-latest  # You can choose a different OS if needed
 
