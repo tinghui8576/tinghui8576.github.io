@@ -11,7 +11,7 @@ categories: plot
 ### From week1:
 <img src='_figs/crimeoccurrence.png' alt="occurrence" width="500" height="600">
 ### Log scale:
-<img src='_figs/occurrence_in_log.png' alt="log" width="500" height="600">
+<img src='_posts/_figs/heat_map.png' alt="log" width="500" height="600">
 
 * Plot the distribution of vs on linear axes & the distribution of vs on loglog axes.
 ### Distribution
