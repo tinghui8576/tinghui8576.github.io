@@ -7,7 +7,7 @@ categories: plot
 
 <embed 
        type="text/html" 
-       src="/bokeh/part2.html"
+       src="part2.html"
        width="1100"
        height="600"
        >
