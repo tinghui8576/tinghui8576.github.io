@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "Ex5 result"
-date:   2024-03-12 09:45:16 +0100
-categories: plot
+layout: default
+title: Exercise
+permalink: /exercise/
 ---
 
 ## Exercise
