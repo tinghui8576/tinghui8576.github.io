@@ -9,7 +9,8 @@ layout: home
 * Create a version of this plot from Week 1, where you display the `-axis on log-scale`. Comment on what the plot looks like. Do any new insights arise?
 
 ### From week1:
-![wk1](_figs/crimeoccurrence.png){:class="img-responsive"}
+<img src='_figs/crimeoccurrence.png'>
+
 ### Log scale:
 ![log](_figs/occurrence_in_log.png){:class="img-responsive"}
 
