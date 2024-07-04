@@ -169,7 +169,7 @@ h6 {
     margin-left: 160px;
   }
 
-  .header~main .home {
+  .header~main .hero {
     margin-left: -160px;
     width: 100vw;
   }
@@ -515,7 +515,7 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.home {
+.hero {
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -525,7 +525,7 @@ section,
   justify-content: center;
 }
 
-.home img {
+.hero img {
   position: absolute;
   inset: 0;
   display: block;
@@ -535,7 +535,7 @@ section,
   z-index: 1;
 }
 
-.home:before {
+.hero:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 30%);
   position: absolute;
@@ -543,32 +543,32 @@ section,
   z-index: 2;
 }
 
-.home .container {
+.hero .container {
   position: relative;
   z-index: 3;
 }
 
-.home h2 {
+.hero h2 {
   margin: 0;
   font-size: 64px;
   font-weight: 700;
 }
 
-.home p {
+.hero p {
   margin: 5px 0 0 0;
   font-size: 26px;
 }
 
-.home p span {
+.hero p span {
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
 }
 
-.home .social-links {
+.hero .social-links {
   margin-top: 25px;
 }
 
-.home .social-links a {
+.hero .social-links a {
   font-size: 20px;
   display: inline-block;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
@@ -577,16 +577,16 @@ section,
   transition: 0.3s;
 }
 
-.home .social-links a:hover {
+.hero .social-links a:hover {
   color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
-  .home h2 {
+  .hero h2 {
     font-size: 32px;
   }
 
-  .home p {
+  .hero p {
     font-size: 20px;
   }
 }
