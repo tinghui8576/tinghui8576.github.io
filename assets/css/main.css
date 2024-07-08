@@ -604,6 +604,12 @@ section,
   padding: 0;
 }
 
+.about .content h5 {
+  margin-top: 100px;
+  text-align: left;
+  font-size: 16px;
+}
+
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
