@@ -1168,7 +1168,11 @@ section,
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 70%;
+}
+.portfolio-details .embed-responsive iframe{
+  width: 70%;
+  height: 400px;
 }
 
 .portfolio-details .swiper-wrapper {
