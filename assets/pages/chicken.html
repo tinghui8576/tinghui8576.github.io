@@ -75,46 +75,48 @@
       <div class="container" data-aos="fade-up">
 
 
+        
         <div class="embed-responsive embed-responsive-16by9">
           <iframe  src="https://www.youtube.com/embed/Goz-C6jFdlo?si=1ReO2MLl5az9RnN4" allowfullscreen></iframe>
         </div>
-
         
         <div class="row justify-content-between gy-4 mt-4">
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h4>Project Overview:</h2>
+              <h4><strong>Project Overview</strong></h4>
               <p>
-                This project involved developing an embedded system to monitor chicken activity, reducing the need for human patrolling. I used a Raspberry Pi 4 
+                In this project, I developed an embedded system to monitor chicken activity, reducing the need for human patrolling. I used a Raspberry Pi 4 
                 and a fisheye camera to capture image data from a chicken coop located at Xinhe Livestock Farm, Leadray Co., Yunlin(雲林新禾畜牧場). The captured 
-                images were labeled, and a model was trained to detect chickens. After identifying the chickens' locations, I applied a Simple Online and Real-time 
-                Tracking (SORT) algorithm to track their movements. This allowed me to quantify their movements. To calculate how dispersed they were I using the 
-                Nearest Neighbor Index (NNI).
+                images were labeled, and a model was trained to detect chickens. Once the chickens' locations were identified, Once the chickens' locations were 
+                identified, I implemented a Simple Online and Real-time Tracking (SORT) algorithm and utilized the Nearest Neighbor Index (NNI) to assess their 
+                health condition. SORT allowed me to track their movements and quantify their activity, while NNI helped calculate how dispersed they were. 
               </p>
-              
+              <h5>Key Technologies Used</h4>
+              <ul>
+                <li>Hardware: Raspberry Pi 4, Fisheye Camera</li>
+                <li>Software: YOLOv5, Simple Online and Real-time Tracking , Nearest Neighbor Index
+                </li>
+              </ul>
 
               <div class="testimonial-item">
                 <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
+                  The findings of this research were published in the CIGR conference and the presentation can be viewed on YouTube.
                 </p>
-                <div>
-                  <img src="../../assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
               </div>
-
-              <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+              
+              
+              <h4><strong>Paper Publication</strong></h4>
+              <p>I co-authored a paper with a master's student, Bo-Lin Chen. My contributions included further analyzing the movement and NNI data to identify hourly, 
+                weekly, monthly, and seasonal patterns, as well as correlations with temperature. Through this analysis, I discovered weekly behavioral trends and identified 
+                irregular events occurring when values values fell outside the expected range. This insight led to the development of a warning system to alert 
+                stakeholders to unusual behavioral patterns observed in the data which was done by Bo-Lin Chen.
               </p>
-
-              <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-              </p>
-
+              <div class="testimonial-item">
+                <p>
+                  The findings of this research were published in the Poultry Jounal.
+                </p>
+              </div>
             </div>
           </div>
 

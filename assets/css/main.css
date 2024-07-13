@@ -1289,10 +1289,10 @@ section,
 }
 
 .portfolio-details .portfolio-description .testimonial-item {
-  padding: 30px 30px 0 30px;
+  padding: 10px 30px 1px 30px;
   position: relative;
   background: color-mix(in srgb, var(--default-color), transparent 97%);
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .portfolio-details .portfolio-description .testimonial-item .testimonial-img {
