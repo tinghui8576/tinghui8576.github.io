@@ -87,14 +87,15 @@
               <p>
                 In this project, I developed an embedded system to monitor chicken activity, reducing the need for human patrolling. I used a Raspberry Pi 4 
                 and a fisheye camera to capture image data from a chicken coop located at Xinhe Livestock Farm, Leadray Co., Yunlin(雲林新禾畜牧場). The captured 
-                images were labeled, and a model was trained to detect chickens. Once the chickens' locations were identified, Once the chickens' locations were 
+                images were labeled, and a YOLOv7-tiny model was trained to detect chickens. Once the chickens' locations were identified, Once the chickens' locations were 
                 identified, I implemented a Simple Online and Real-time Tracking algorithm and utilized the Nearest Neighbor Index to assess their 
-                health condition. SORT allowed me to track their movements and quantify their activity, while NNI helped calculate how dispersed they were. 
+                health condition. SORT allowed me to track their movements and quantify their activity, while NNI helped calculate how dispersed they were. Once the 
+                quantifying pipeline was completed, I utilized Docker to deploy the chicken health detection model on the Raspberry Pi 4.
               </p>
               <h5>Key Technologies Used</h5>
               <ul>
                 <li>Hardware: Raspberry Pi 4, Fisheye Camera</li>
-                <li>Software: Python, YOLOv5, Simple Online and Real-time Tracking , Nearest Neighbor Index
+                <li>Software: Python, YOLOv7, Docker, Simple Online and Real-time Tracking , Nearest Neighbor Index
                 </li>
               </ul>
 
@@ -103,8 +104,23 @@
                   The findings of this research were published in the CIGR conference and the presentation can be viewed on YouTube.
                 </p>
               </div>
-              
-              
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category</strong> Bachelor Project</li>
+                <li><strong>Project date</strong> 2021 - 2023</li>
+                <li><a href="https://github.com/tinghui8576/Chicken-Monitor" class="btn-visit align-self-start">Visit Github Repo  <i class="bi-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          
+
+          <div class="col-lg-8">
+            <div class="portfolio-description">
               <h4><strong>Paper Publication</strong></h4>
               <p>I co-authored a paper with a master's student, Bo-Lin Chen. My contributions included further analyzing the movement and NNI data to identify hourly, 
                 weekly, monthly, and seasonal patterns, as well as correlations with temperature. Through this analysis, I discovered weekly behavioral trends and identified 
@@ -113,25 +129,24 @@
               </p>
               <div class="testimonial-item">
                 <p>
-                  The findings of this research were published in the Poultry Jounal.
+                  The findings of this research were published in Poultry Science.
                 </p>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Paper Information</h3>
               <ul>
-                <li><strong>Category</strong> Bachelor Project & Paper Publication</li>
+                <li><strong>Category</strong> Paper Publication</li>
                 <li><strong>Project date</strong> 2021 - 2023</li>
-                <li><a href="https://www.sciencedirect.com/science/article/pii/S003257912300559X" class="btn-visit align-self-start">Visit Paper</a></li>
+                <li> <a href="https://www.sciencedirect.com/science/article/pii/S003257912300559X" class="btn-visit align-self-start">Visit Paper  <i class="bi bi-book-half"></i></a></li>
               </ul>
             </div>
           </div>
 
         </div>
-
+        
       </div>
 
     </section><!-- /Portfolio Details Section -->
