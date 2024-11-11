@@ -693,6 +693,12 @@ section,
   font-family: var(--heading-font);
 }
 
+.skills .skill-title {
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+}
+
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
